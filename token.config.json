@@ -1,0 +1,7 @@
+{
+  "name": "Lab Test Coin",
+  "symbol": "LABT",
+  "decimals": 6,
+  "totalSupply": 1000000000,
+  "uri": "https://example.com/labt-metadata.json"
+}

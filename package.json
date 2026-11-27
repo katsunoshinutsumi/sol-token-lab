@@ -1,0 +1,30 @@
+{
+  "name": "sol-token-lab",
+  "version": "1.0.0",
+  "description": "Solana devnet 専用のトークン学習用プロジェクト（mainnet 非対応）",
+  "scripts": {
+    "typecheck": "tsc",
+    "keygen": "tsx src/01-keygen.ts",
+    "airdrop": "tsx src/02-airdrop.ts",
+    "create": "tsx src/03-create-token.ts",
+    "transfer": "tsx src/04-transfer.ts",
+    "revoke": "tsx src/05-revoke-authorities.ts",
+    "try-mint": "tsx src/06-try-extra-mint.ts",
+    "check": "tsx src/check-token.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.15",
+    "@solana/spl-token-metadata": "^0.1.6",
+    "@solana/web3.js": "^1.99.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "private": true
+}

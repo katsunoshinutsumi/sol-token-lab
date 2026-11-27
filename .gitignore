@@ -1,0 +1,9 @@
+# 秘密鍵（devnet 用でも Git に入れない）
+.keys/
+*.keypair.json
+id.json
+# 実行結果（ミントアドレス等。秘密情報ではないが個人の作業ログなので除外）
+.state/
+node_modules/
+.env
+.env.*
